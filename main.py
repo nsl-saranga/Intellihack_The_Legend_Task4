@@ -48,8 +48,4 @@ future_data['Category'] = label_encoder.transform(future_data['Category'])
 future_data[num_features] = scaler.transform(future_data[num_features])
 future_pred = model.predict(future_data)
 
-# Trend nalysis and Interpretation
-# # Analyze model predictions and insights to identify significant trends for each product category
-#
-# # Visualization
-# # Visualize forecasted trends and compare them with historical dataA
+
